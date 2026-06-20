@@ -1,0 +1,12 @@
+[project]
+name = "prompt-intelligence"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=2.3.0",
+    "python-dotenv>=1.0.0",
+    "litellm>=1.83.7,<=1.83.14",
+]
+
+[project.scripts]
+prompt-agent = "agent.runner:main"

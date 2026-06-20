@@ -1,0 +1,2 @@
+[console_scripts]
+prompt-agent = agent.runner:main
